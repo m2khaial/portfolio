@@ -358,13 +358,10 @@ element.style {
 }
 *, ::after, ::before {
     box-sizing: border-box;
-    border-width: 0px;
+    border-width: 0;
     border-style: solid;
     border-color: rgb(229, 231, 235);
     border-image: initial;
-}
-html[Attributes Style] {
-    -webkit-locale: "en";
 }
 :root {
     view-transition-name: root;
